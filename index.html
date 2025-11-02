@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NoteApp</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <link rel="icon" href="./favicon/favicon-32x32.png" type="image/svg+xml">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo-container">
+            <span class="gradiente-titulo">Anotadinho</span> 
+            <small class="subtitulo-container">Organize suas ideias</small>
+        </h1>
+    </header>
+
+    <main class="principal">
+        <section class="secao-um">
+            <label for="anotacao" class="label-anotacao">Anotação</label>
+            <textarea id="anotacao" type="text" placeholder="Digite aqui..."></textarea>
+            
+            <div class="btn-container">
+                <button class="btn-adicionar" id="botao">Adicionar</button>
+            </div>    
+        </section>
+
+        <section class="secao-dois">
+            <div class="container-subtitulo-notas">
+                <h2 class="subtitulo-notas">Suas anotações</h2>
+
+                <button class="btn-limpar" id="btnLimpar">Limpar</button>
+            </div>
+
+            <div class="container-notas" id="containerNotas"></div>
+        </section>
+
+    </main>
+<script src="./src/js/index.js"></script>
+</body>
+</html>
