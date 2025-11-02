@@ -29,7 +29,7 @@ Acesse a versão online do [projeto](https://luciane003.github.io/App-Notas/)
 ## Como visualizar o projeto localmente
 ### Clonar o repositório
 git clone https://github.com/luciane003/App-Notas.git
-### Abra o arquivo index.html no navegador
+
 
 ## Visualização
 
