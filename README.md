@@ -32,7 +32,7 @@ git clone https://github.com/luciane003/App-Notas.git
 
 
 ## Visualização
-
+![Visualização do GIF AppNotas](./visualizacao-gif/appNotas.gif)
 
 
 ## Autora 
