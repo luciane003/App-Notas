@@ -12,7 +12,7 @@ Outra etapa desafiadora foi adicionar o backend: criar e estruturar uma API do z
 Acesse a versão online do [projeto](https://luciane003.github.io/App-Notas/)
 
 ## Repositório do backend
-[Clique aqui]()
+[Clique aqui](https://github.com/luciane003/App-Notas-backend)
 
 ## Funcionalidades
 - Layout totalmente responsivo
