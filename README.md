@@ -22,6 +22,7 @@ Acesse a versão online do [projeto](https://luciane003.github.io/App-Notas-fron
 - Efeito de brilho azul leve ao passar o mouse sobre as notas
 - Cada nota possui um botão “x” para exclusão individual.
 - Desenvolvido com HTML, CSS, JavaScript e um backend em Node.js/Express.
+- Não perde sua anotações.
 
 ## Tecnologias usadas
 ### Frontend
@@ -42,7 +43,7 @@ Acesse a versão online do [projeto](https://luciane003.github.io/App-Notas-fron
 
 ## Como visualizar o projeto frontend localmente
 ### Clonar o repositório
-git clone https://github.com/luciane003/App-Notas.git
+git clone https://github.com/luciane003/App-Notas-frontend
 
 ## Como rodar o projeto com backend local
 - Inicie o servidor: `npm run dev` (ou o comando que usa)
