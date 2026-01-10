@@ -3,7 +3,7 @@ const containerNotas = document.getElementById('containerNotas');
 const nota = document.getElementById('anotacao');
 const btnLimparTudo = document.getElementById('btnLimpar');
 
-const API_URL = "http://localhost:3000/anotacoes";
+const API_URL = "https://app-notas-backend-35yl.onrender.com/anotacoes";
 
 function criarNota(texto, id) {
     const notas = document.createElement('div');
