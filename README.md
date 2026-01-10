@@ -1,13 +1,18 @@
 # Notas Rápidas 📒
 
 ## Sobre o projeto
-Um aplicativo onde você pode adicionar suas anotações diárias, sem limite de quantidade. Desenvolvi este projeto para praticar e aprimorar meus conhecimentos em JavaScript, HTML e CSS, deixando a experiência mais interativa e funcional.
+Um aplicativo onde você pode adicionar suas anotações diárias, sem limite de quantidade, onde o usuário pode criar, listar, e excluir notas. Inicialmente o projeto funcionava apenas no frotnend, mas agora foi atualizado para incluir um backend em Node.js com Express, permitindo salvar e gerenciar os dados via API. 
 
 ## Desafios
-Foi um projeto muito interessante! O maior desafio foi reorganizar a estrutura do JavaScript: depois de implementar as funcionalidades, precisei refatorar o código para que ficasse mais limpo e fácil de ler. Criei funções isoladas para manter tudo organizado e modularizado.
+Este projeto foi uma experiência muito enriquecedora! O principal desafio foi reorganizar a estrutura do JavaScript. Depois de implementar todas as funcionalidades, percebi a necessidade de refatorar o código para deixá-lo mais limpo, legível e fácil de manter. Para isso, separei trechos repetidos em funções e deixei a lógica mais modularizada.
+
+Outra etapa desafiadora foi adicionar o backend: criar e estruturar uma API do zero exigiu atenção extra, especialmente na comunicação entre o frontend e o backend, mas foi uma parte importante para evoluir minhas habilidades.
 
 ## Projeto no ar
 Acesse a versão online do [projeto](https://luciane003.github.io/App-Notas/)
+
+## Repositório do backend
+[Clique aqui](https://github.com/luciane003/App-Notas-backend)
 
 ## Funcionalidades
 - Layout totalmente responsivo
@@ -16,9 +21,10 @@ Acesse a versão online do [projeto](https://luciane003.github.io/App-Notas/)
 - Botão “Limpar” para remover todas as notas de uma vez
 - Efeito de brilho azul leve ao passar o mouse sobre as notas
 - Cada nota possui um botão “x” para exclusão individual.
-- Desenvolvido com HTML, CSS e JavaScript.
+- Desenvolvido com HTML, CSS, JavaScript e um backend em Node.js/Express.
 
 ## Tecnologias usadas
+### Frontend
 
 <div style="display: inline_block">
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
@@ -26,9 +32,22 @@ Acesse a versão online do [projeto](https://luciane003.github.io/App-Notas/)
   <img align="center" alt="JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
 </div><br>
 
-## Como visualizar o projeto localmente
+### Backend
+<div style="display: inline_block">
+  <img align="center" alt="Node.js" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
+  <img align="center" alt="Express.js" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg">
+  <img align="center" alt="CORS" height="40" width="50" src="https://img.shields.io/badge/CORS-Enabled-blue?style=for-the-badge">
+  <img align="center" alt="API REST" height="40" width="100" src="https://img.shields.io/badge/REST-API%20REST-success?style=for-the-badge">
+</div>
+
+## Como visualizar o projeto frontend localmente
 ### Clonar o repositório
 git clone https://github.com/luciane003/App-Notas.git
+
+## Como rodar o projeto com backend local
+- Inicie o servidor: `npm run dev` (ou o comando que usa)
+- Depois abra o frontend no navegador(live Server ou Vite dev)
+- O frontend se comunica com : http://localhost:3000/anotacoes
 
 
 ## Visualização
