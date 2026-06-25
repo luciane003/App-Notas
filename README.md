@@ -9,7 +9,7 @@ Este projeto foi uma experiência muito enriquecedora! O principal desafio foi r
 Outra etapa desafiadora foi adicionar o backend: criar e estruturar uma API do zero exigiu atenção extra, especialmente na comunicação entre o frontend e o backend, mas foi uma parte importante para evoluir minhas habilidades.
 
 ## Projeto no ar
-Acesse a versão online do [projeto](https://luciane003.github.io/App-Notas-frontend/)
+Acesse a versão online do [projeto](https://app-notas-frontend.vercel.app/)
 
 ## Repositório do backend
 [Clique aqui](https://github.com/luciane003/App-Notas-backend)
